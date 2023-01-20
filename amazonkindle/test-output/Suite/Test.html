@@ -1,0 +1,229 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>12/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jan 19 19:24:17 EST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>15 seconds (15520 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='newpackage.Chrome.kindle_digitalcontent()'><b>kindle_digitalcontent</b><br>Test class: newpackage.Chrome<br/>
+<a href="#Output-2009726859" onClick='toggleBox("Output-2009726859", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2009726859" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2009726859">
+Step-3: Select Kindle under Digital Content and Devices<br/>
+Kindle was selected under Digital Content and devices.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>newpackage.Chrome@61001b64</td></tr>
+<tr>
+<td title='newpackage.Chrome.usersignin()'><b>usersignin</b><br>Test class: newpackage.Chrome<br/>
+<a href="#Output-1842495952" onClick='toggleBox("Output-1842495952", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1842495952" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1842495952">
+Step-6: Verify User is asked for email or mobile number<br/>
+The User is asked for email or mobile number after clicking on 'buy now' button<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>newpackage.Chrome@61001b64</td></tr>
+<tr>
+<td title='newpackage.Firefox.hamburgermenu()'><b>hamburgermenu</b><br>Test class: newpackage.Firefox<br/>
+<a href="#Output-1350278686" onClick='toggleBox("Output-1350278686", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1350278686" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1350278686">
+Step-2: Click on hamburger menu (top left corner)<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>newpackage.Firefox@290222c1</td></tr>
+<tr>
+<td title='newpackage.Firefox.usersignin()'><b>usersignin</b><br>Test class: newpackage.Firefox<br/>
+<a href="#Output-697181990" onClick='toggleBox("Output-697181990", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-697181990" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-697181990">
+Step-6: Verify User is asked for email or mobile number<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>newpackage.Firefox@290222c1</td></tr>
+<tr>
+<td title='newpackage.Chrome.hamburgermenu()'><b>hamburgermenu</b><br>Test class: newpackage.Chrome<br/>
+<a href="#Output-1350422164" onClick='toggleBox("Output-1350422164", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1350422164" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1350422164">
+Step-2: Click on hamburger menu (top left corner)<br/>
+The hamburger menu was clicked successfully.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>newpackage.Chrome@61001b64</td></tr>
+<tr>
+<td title='newpackage.Chrome.loadamazonwebpage()'><b>loadamazonwebpage</b><br>Test class: newpackage.Chrome<br/>
+<a href="#Output-1646570510" onClick='toggleBox("Output-1646570510", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1646570510" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1646570510">
+Step-1: Go to amazon.ca<br/>
+The amazon.ca webpage was opened successfully.<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>newpackage.Chrome@61001b64</td></tr>
+<tr>
+<td title='newpackage.Firefox.kindle_digitalcontent()'><b>kindle_digitalcontent</b><br>Test class: newpackage.Firefox<br/>
+<a href="#Output-308016497" onClick='toggleBox("Output-308016497", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-308016497" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-308016497">
+Step-3: Select Kindle under Digital Content and Devices<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>newpackage.Firefox@290222c1</td></tr>
+<tr>
+<td title='newpackage.Chrome.buynow()'><b>buynow</b><br>Test class: newpackage.Chrome<br/>
+<a href="#Output-966238333" onClick='toggleBox("Output-966238333", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-966238333" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-966238333">
+Step-5: Click Buy Now<br/>
+Buy Now option was clicked successfully from the kindle product page.<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>newpackage.Chrome@61001b64</td></tr>
+<tr>
+<td title='newpackage.Firefox.buynow()'><b>buynow</b><br>Test class: newpackage.Firefox<br/>
+<a href="#Output-1951475619" onClick='toggleBox("Output-1951475619", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1951475619" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1951475619">
+Step-5: Click Buy Now<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>newpackage.Firefox@290222c1</td></tr>
+<tr>
+<td title='newpackage.Firefox.loadamazonwebpage()'><b>loadamazonwebpage</b><br>Test class: newpackage.Firefox<br/>
+<a href="#Output-502659239" onClick='toggleBox("Output-502659239", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-502659239" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-502659239">
+Step-1: Go to amazon.ca<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>newpackage.Firefox@290222c1</td></tr>
+<tr>
+<td title='newpackage.Firefox.kindle_under_ereader()'><b>kindle_under_ereader</b><br>Test class: newpackage.Firefox<br/>
+<a href="#Output-2018928611" onClick='toggleBox("Output-2018928611", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2018928611" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2018928611">
+Step-4: Click Kindle under Kindle E-Reader<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>newpackage.Firefox@290222c1</td></tr>
+<tr>
+<td title='newpackage.Chrome.kindle_under_ereader()'><b>kindle_under_ereader</b><br>Test class: newpackage.Chrome<br/>
+<a href="#Output-1149441464" onClick='toggleBox("Output-1149441464", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1149441464" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1149441464">
+Step-4: Click Kindle under Kindle E-Reader<br/>
+Kindle option was selected under kindle e-reader section successfully.<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>newpackage.Chrome@61001b64</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Step-1: Go to amazon.ca]]>
+    </line>
+    <line>
+      <![CDATA[Step-1: Go to amazon.ca]]>
+    </line>
+    <line>
+      <![CDATA[The amazon.ca webpage was opened successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Step-2: Click on hamburger menu (top left corner)]]>
+    </line>
+    <line>
+      <![CDATA[The hamburger menu was clicked successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Step-3: Select Kindle under Digital Content and Devices]]>
+    </line>
+    <line>
+      <![CDATA[The amazon.ca webpage was opened successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Step-2: Click on hamburger menu (top left corner)]]>
+    </line>
+    <line>
+      <![CDATA[Kindle was selected under Digital Content and devices.]]>
+    </line>
+    <line>
+      <![CDATA[Step-4: Click Kindle under Kindle E-Reader]]>
+    </line>
+    <line>
+      <![CDATA[The hamburger menu was clicked successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Step-3: Select Kindle under Digital Content and Devices]]>
+    </line>
+    <line>
+      <![CDATA[Kindle was selected under Digital Content and devices.]]>
+    </line>
+    <line>
+      <![CDATA[Step-4: Click Kindle under Kindle E-Reader]]>
+    </line>
+    <line>
+      <![CDATA[Kindle option was selected under kindle e-reader section successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Step-5: Click Buy Now]]>
+    </line>
+    <line>
+      <![CDATA[Buy Now option was clicked successfully from the kindle product page.]]>
+    </line>
+    <line>
+      <![CDATA[Step-6: Verify User is asked for email or mobile number]]>
+    </line>
+    <line>
+      <![CDATA[Kindle option was selected under kindle e-reader section successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Step-5: Click Buy Now]]>
+    </line>
+    <line>
+      <![CDATA[The User is asked for email or mobile number after clicking on 'buy now' button]]>
+    </line>
+    <line>
+      <![CDATA[Buy Now option was clicked successfully from the kindle product page.]]>
+    </line>
+    <line>
+      <![CDATA[Step-6: Verify User is asked for email or mobile number]]>
+    </line>
+    <line>
+      <![CDATA[The User is asked for email or mobile number after clicking on 'buy now' button]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-01-19T19:38:49 GMT-05:00" name="Parallel Testing Suite" finished-at="2023-01-19T19:39:01 GMT-05:00" duration-ms="12037">
+    <groups>
+    </groups>
+    <test started-at="2023-01-19T19:38:49 GMT-05:00" name="Parallel Tests" finished-at="2023-01-19T19:39:01 GMT-05:00" duration-ms="12037">
+      <class name="newpackage.Chrome">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:newpackage.Chrome@290222c1]" started-at="2023-01-19T19:38:49 GMT-05:00" name="launchBrowser" finished-at="2023-01-19T19:38:50 GMT-05:00" duration-ms="1464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="loadamazonwebpage()[pri:1, instance:newpackage.Chrome@290222c1]" started-at="2023-01-19T19:38:53 GMT-05:00" name="loadamazonwebpage" finished-at="2023-01-19T19:38:55 GMT-05:00" duration-ms="2435" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Step-1: Go to amazon.ca]]>
+            </line>
+            <line>
+              <![CDATA[The amazon.ca webpage was opened successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loadamazonwebpage -->
+        <test-method signature="hamburgermenu()[pri:2, instance:newpackage.Chrome@290222c1]" started-at="2023-01-19T19:38:55 GMT-05:00" name="hamburgermenu" finished-at="2023-01-19T19:38:56 GMT-05:00" duration-ms="546" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Step-2: Click on hamburger menu (top left corner)]]>
+            </line>
+            <line>
+              <![CDATA[The hamburger menu was clicked successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- hamburgermenu -->
+        <test-method signature="kindle_digitalcontent()[pri:3, instance:newpackage.Chrome@290222c1]" started-at="2023-01-19T19:38:56 GMT-05:00" name="kindle_digitalcontent" finished-at="2023-01-19T19:38:56 GMT-05:00" duration-ms="176" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Step-3: Select Kindle under Digital Content and Devices]]>
+            </line>
+            <line>
+              <![CDATA[Kindle was selected under Digital Content and devices.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- kindle_digitalcontent -->
+        <test-method signature="kindle_under_ereader()[pri:4, instance:newpackage.Chrome@290222c1]" started-at="2023-01-19T19:38:56 GMT-05:00" name="kindle_under_ereader" finished-at="2023-01-19T19:38:56 GMT-05:00" duration-ms="371" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Step-4: Click Kindle under Kindle E-Reader]]>
+            </line>
+            <line>
+              <![CDATA[Kindle option was selected under kindle e-reader section successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- kindle_under_ereader -->
+        <test-method signature="buynow()[pri:5, instance:newpackage.Chrome@290222c1]" started-at="2023-01-19T19:38:56 GMT-05:00" name="buynow" finished-at="2023-01-19T19:38:57 GMT-05:00" duration-ms="1221" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Step-5: Click Buy Now]]>
+            </line>
+            <line>
+              <![CDATA[Buy Now option was clicked successfully from the kindle product page.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- buynow -->
+        <test-method signature="usersignin()[pri:6, instance:newpackage.Chrome@290222c1]" started-at="2023-01-19T19:38:57 GMT-05:00" name="usersignin" finished-at="2023-01-19T19:38:59 GMT-05:00" duration-ms="1049" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Step-6: Verify User is asked for email or mobile number]]>
+            </line>
+            <line>
+              <![CDATA[The User is asked for email or mobile number after clicking on 'buy now' button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- usersignin -->
+        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:newpackage.Chrome@290222c1]" started-at="2023-01-19T19:39:00 GMT-05:00" name="terminateBrowser" finished-at="2023-01-19T19:39:00 GMT-05:00" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+      </class> <!-- newpackage.Chrome -->
+      <class name="newpackage.Firefox">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:newpackage.Firefox@61001b64]" started-at="2023-01-19T19:38:50 GMT-05:00" name="launchBrowser" finished-at="2023-01-19T19:38:53 GMT-05:00" duration-ms="2338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="loadamazonwebpage()[pri:1, instance:newpackage.Firefox@61001b64]" started-at="2023-01-19T19:38:53 GMT-05:00" name="loadamazonwebpage" finished-at="2023-01-19T19:38:54 GMT-05:00" duration-ms="1094" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Step-1: Go to amazon.ca]]>
+            </line>
+            <line>
+              <![CDATA[The amazon.ca webpage was opened successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loadamazonwebpage -->
+        <test-method signature="hamburgermenu()[pri:2, instance:newpackage.Firefox@61001b64]" started-at="2023-01-19T19:38:54 GMT-05:00" name="hamburgermenu" finished-at="2023-01-19T19:38:55 GMT-05:00" duration-ms="1134" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Step-2: Click on hamburger menu (top left corner)]]>
+            </line>
+            <line>
+              <![CDATA[The hamburger menu was clicked successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- hamburgermenu -->
+        <test-method signature="kindle_digitalcontent()[pri:3, instance:newpackage.Firefox@61001b64]" started-at="2023-01-19T19:38:55 GMT-05:00" name="kindle_digitalcontent" finished-at="2023-01-19T19:38:55 GMT-05:00" duration-ms="417" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Step-3: Select Kindle under Digital Content and Devices]]>
+            </line>
+            <line>
+              <![CDATA[Kindle was selected under Digital Content and devices.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- kindle_digitalcontent -->
+        <test-method signature="kindle_under_ereader()[pri:4, instance:newpackage.Firefox@61001b64]" started-at="2023-01-19T19:38:55 GMT-05:00" name="kindle_under_ereader" finished-at="2023-01-19T19:38:58 GMT-05:00" duration-ms="2829" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Step-4: Click Kindle under Kindle E-Reader]]>
+            </line>
+            <line>
+              <![CDATA[Kindle option was selected under kindle e-reader section successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- kindle_under_ereader -->
+        <test-method signature="buynow()[pri:5, instance:newpackage.Firefox@61001b64]" started-at="2023-01-19T19:38:58 GMT-05:00" name="buynow" finished-at="2023-01-19T19:39:00 GMT-05:00" duration-ms="1454" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Step-5: Click Buy Now]]>
+            </line>
+            <line>
+              <![CDATA[Buy Now option was clicked successfully from the kindle product page.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- buynow -->
+        <test-method signature="usersignin()[pri:6, instance:newpackage.Firefox@61001b64]" started-at="2023-01-19T19:39:00 GMT-05:00" name="usersignin" finished-at="2023-01-19T19:39:00 GMT-05:00" duration-ms="102" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Step-6: Verify User is asked for email or mobile number]]>
+            </line>
+            <line>
+              <![CDATA[The User is asked for email or mobile number after clicking on 'buy now' button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- usersignin -->
+        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:newpackage.Firefox@61001b64]" started-at="2023-01-19T19:39:00 GMT-05:00" name="terminateBrowser" finished-at="2023-01-19T19:39:01 GMT-05:00" duration-ms="1026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+      </class> <!-- newpackage.Firefox -->
+    </test> <!-- Parallel Tests -->
+  </suite> <!-- Parallel Testing Suite -->
+</testng-results>
